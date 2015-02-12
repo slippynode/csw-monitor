@@ -1,0 +1,22 @@
+{
+  "name": "csw-monitor",
+  "version": "0.0.1-dev",
+  "description": "Monitor the status of data in a CSW",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slippynode/csw-monitor.git"
+  },
+  "author": "Adrian Sonnenschein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slippynode/csw-monitor/issues"
+  },
+  "homepage": "https://github.com/slippynode/csw-monitor",
+  "dependencies": {
+    "xml2js": "0.4.5"
+  }
+}
