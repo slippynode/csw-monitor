@@ -4,3 +4,5 @@
  * Copyright 2014 Adrian Sonnenschein        *
  * Released under the MIT license            *
  *********************************************/
+
+ "use strict";
