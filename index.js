@@ -5,4 +5,12 @@
  * Released under the MIT license            *
  *********************************************/
 
- "use strict";
+require('./lib/server')(function (err, server) {
+  if (err) throw err;
+  server.listen(server.get('port'), function () {
+    var host = this.address().address
+      , port = this.address().port
+    ;
+    console.log('Listening at http://%s:%s', host, port);
+  });
+});
