@@ -5,8 +5,8 @@
  * Released under the MIT license            *
  *********************************************/
 
-require('./lib/server')(function (err, server) {
-  if (err) throw err;
+require('./lib/server')(function (error, server) {
+  if (error) throw error;
   server.listen(server.get('port'), function () {
     var host = this.address().address
       , port = this.address().port
